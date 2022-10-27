@@ -1,0 +1,47 @@
+ul {
+    list-style-type: none;
+}
+
+p {
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+.child-ul {
+    display: none;
+}
+.child-ul-visible {
+    display: block;
+}
+.grandchild-ul {
+    display: none;
+}
+.grandchild-ul-visible {
+    display: block
+}
+
+.grandgrandchild-ul {
+    display: none;
+}
+
+.grandgrandchild-ul-visible {
+    display: block;
+}
+
+
+.triangle {
+    display: inline-block;
+}
+
+.triangle-2 {
+    display: inline-block;
+}
+
+.triangle-3 {
+    display: inline-block;
+}
+
+.triangle-rotate {
+    transform: rotateZ(90deg);
+}
+
